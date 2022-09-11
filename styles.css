@@ -127,6 +127,16 @@ transform: scale(1.1);
     width: calc(100% - 260px);
 } 
 
+#project-card > a{
+  visibility: hidden;
+}
+
+#project-card:hover a{
+  visibility: visible;
+
+}
+
+
 
 /* width */
 ::-webkit-scrollbar {
