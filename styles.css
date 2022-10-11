@@ -24,7 +24,7 @@ transform: scale(1.1);
 
 .accordion {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     width: 100%;
@@ -54,7 +54,7 @@ transform: scale(1.1);
 .accordion-title span {
     bottom: 0px;
     box-sizing: border-box;
-    display: block;
+    /*display: block;*/
     position: absolute;
     white-space: nowrap;
     width: 100%;
@@ -79,7 +79,7 @@ transform: scale(1.1);
     border-radius: 8px;
     border-style: solid;
     border-width: 1px;
-    flex-direction: row;
+    /*flex-direction: row;*/
     height: 282px;
 } 
 
@@ -247,4 +247,14 @@ transform: scale(1.1);
 	100% {
 		-webkit-transform: translateX(0%);
 	}
+}
+
+/***** Responsive ****/
+
+@media (max-width: 768px) {
+  .accordion-content {
+    margin-right: 0;
+    padding: 2em;
+    width: 100%;
+}
 }
